@@ -35,3 +35,11 @@ h5{
 img{
   height: 50vh;
 }
+
+.img-slide {
+  transition: opacity 0.9s ease-in-out;
+  opacity: 1;
+}
+.img-slide.fade-out {
+  opacity: 0;
+}
