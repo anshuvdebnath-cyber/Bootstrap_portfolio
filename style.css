@@ -1,6 +1,7 @@
 
 body{
   font-family: Bitcount Prop Double;
+  
 }
 
 .google-sans-code-h1 {
@@ -12,10 +13,11 @@ body{
     "MONO" 1;
 }
 
-.bitcount-prop-double-h1 {
+
+.bitcount-prop-double-h1{
   font-family: "Bitcount Prop Double", system-ui;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight:bold;
   font-style: normal;
   font-variation-settings:
     "slnt" 0,
@@ -23,9 +25,9 @@ body{
     "ELSH" 0,
     "ELXP" 0;
 }
-
 h1{
   font-size:6rem;
+  color:#fffdd0;
 }
 
 h5{
@@ -42,4 +44,14 @@ img{
 }
 .img-slide.fade-out {
   opacity: 0;
+}
+
+.turtle{
+  padding: 15rem;
+  object-fit: cover;
+}
+
+.card {
+  --bs-card-border-color: #fffdd0;
+  --bs-card-border-width: 2px
 }
