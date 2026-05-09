@@ -53,6 +53,23 @@ img{
 
 .card {
   --bs-card-border-color: #fffdd0;
-  --bs-card-border-width: 2px
+  --bs-card-border-width: 3px
 }
 
+#navbar-example2{
+  width: 342.4px;
+  background-color:#1a7a4a;
+  border-radius:5px;
+  border:3px solid #fffdd0;
+}
+
+#navpills{
+  background-color:#1a7a4a;
+}
+
+#content_box{
+  background-color:#1a7a4a;
+  width: 342.4px;
+  border:3px solid #fffdd0;
+  color: #fffdd0;
+}
