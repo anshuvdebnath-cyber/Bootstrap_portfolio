@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     
-    
- <!--google font plugins-->   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=VT323&display=swap" rel="stylesheet">
+  <!--google font plugins-->   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=VT323&display=swap" rel="stylesheet">
 
-<!--bootstrap's js plugin--> 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   
-   
-<!--external css file plugin-->
-<link rel="stylesheet" href="style.css">
+  <!--bootstrap css--> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!--external css file-->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Scrollspy fix */
+    .scrollspy-example {
+      height: 350px;
+      overflow-y: scroll;
+    }
+  </style>
     
 </head>
 
-<!--body tag-->
 <body class="bg-success text-white">
-
 
 <!--nav bar-->
 <nav class="navbar navbar-dark bg-success fixed-top">
@@ -33,36 +37,32 @@
     </button>
     <div class="offcanvas offcanvas-end text-bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel" style="color:#fffdd0;
-        ">Portfolio...</h5>
+        <h5 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel" style="color:#fffdd0;">Portfolio...</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"style="color:#fffdd0;
-        ">Home</a>
+            <a class="nav-link active" aria-current="page" href="#" style="color:#fffdd0;">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"style="color:#fffdd0;">Link</a>
+            <a class="nav-link" href="#" style="color:#fffdd0;">Link</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color:#fffdd0;">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#fffdd0;">
               Dropdown
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#"style="color:#fffdd0;">Action</a></li>
+              <li><a class="dropdown-item" href="#" style="color:#fffdd0;">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
+              <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
         </ul>
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn btn-success" type="submit"style="color:#fffdd0;">Search</button>
+          <button class="btn btn-success" type="submit" style="color:#fffdd0;">Search</button>
         </form>
       </div>
     </div>
@@ -72,36 +72,28 @@
 <!--h1 tag-->    
 <h1 class="mx-2 my-5 mb-0" style="font-family: Bitcount Prop Double;">Hello..!!</h1>
 
-<!--collage bootstrap code-->
-<body class="bg-success">
-<div class="contianer mx-2 my-1 bg-white" style="height: 480px; width:312px;">
-  
-  
+<!--collage section-->
+<div class="container mx-2 my-1 bg-white" style="height: 480px; width:312px;">
   <div class="row">
- <div class="col-3 mx-4 my-2 p-0">
-   <img src="assets/image_01.jpg" alt="image" style="height:90px; width:130px;" class="img-slide">
- </div>
-    
-<div class="col-3 mx-4 my-2 p-0">
-    <img src="assets/image_01.jpg" alt="image" style="height:90px; width:146px ;" class="img-slide">
-  </div>
-    
-<div class="col-6 mx-4 p-0">
-    <img src="assets/image_01.jpg" alt="image" style=" height:200px; width:278px;" class="img-slide">
-</div>
-
-<div class="col-6 my-2 mx-4 p-0">
-    <img src="assets/image_01.jpg" alt="image" style=" height:110px; width: 278px;" class="img-slide">
-</div>
-
+    <div class="col-3 mx-4 my-2 p-0">
+      <img src="assets/image_01.jpg" alt="image" style="height:90px; width:130px;" class="img-slide">
+    </div>
+    <div class="col-3 mx-4 my-2 p-0">
+      <img src="assets/image_01.jpg" alt="image" style="height:90px; width:146px;" class="img-slide">
+    </div>
+    <div class="col-6 mx-4 p-0">
+      <img src="assets/image_01.jpg" alt="image" style="height:200px; width:278px;" class="img-slide">
+    </div>
+    <div class="col-6 my-2 mx-4 p-0">
+      <img src="assets/image_01.jpg" alt="image" style="height:110px; width:278px;" class="img-slide">
+    </div>
   </div>
 </div>
 
 <!--profile card section-->
-
 <div class="card m-2 my-3" style="width:90%;">
-  <h5 class="card-header " style="color: #fffdd0; background-color:  #1a7a4a;">PROFILE...</h5>
-  <div class="card-body" style="background-color:  #1a7a4a; color:#fffdd0;">
+  <h5 class="card-header" style="color: #fffdd0; background-color: #1a7a4a;">PROFILE...</h5>
+  <div class="card-body" style="background-color: #1a7a4a; color:#fffdd0;">
     <h5 class="card-title">ANSHUV DEBNATH</h5>
     <h6 class="pb-2">BTech CSE 1st Year | TIU '28</h6>
     <p class="card-text">Mastering JS · Exploring MERN & Flutter 👨‍💻
@@ -110,20 +102,42 @@
   </div>
 </div>
 
-<h5 class="academic heading m-2 my-0" style="color:#fffdd0;" >ACADEMICS...</h5>
+<h5 class="m-2 my-0" style="color:#fffdd0;">ACADEMICS...</h5>
 
+<!--academic scrollspy section-->
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
 
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3">Third</a>
+    </li>
 
+  </ul>
+</nav>
 
-  
-<!--bootstrap plugins-->
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+  <h4 id="scrollspyHeading4">Fourth heading</h4>
+  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+  <h4 id="scrollspyHeading5">Fifth heading</h4>
+  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+</div>
+
+<!-- only ONE bootstrap JS tag -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <script src="main.js"></script>
 
-  </body>
+</body>
 </html>
