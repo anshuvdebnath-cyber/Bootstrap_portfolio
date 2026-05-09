@@ -73,3 +73,13 @@ img{
   border:3px solid #fffdd0;
   color: #fffdd0;
 }
+
+#navbar-example2 .nav-link{
+  color:#fffdd0!important;
+}
+
+#navbar-example2 .nav-link.active {
+  background-color: #fffdd0 !important;
+  color: black !important;
+  border-radius: 5px;
+}
