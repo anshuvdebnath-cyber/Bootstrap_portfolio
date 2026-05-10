@@ -83,3 +83,90 @@ img{
   color: black !important;
   border-radius: 5px;
 }
+
+#sgpa{
+  width:25vw;
+  text-align: center;
+  border: 4px solid #fffdd0;
+  background-color: #22a060;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+}
+
+#scrollspyHeading1{
+  background-color: #fffdd0;
+  color: black;
+  width:50vw;
+  text-align: center;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+}
+
+.grade{
+  font-size:2rem;
+}
+
+.year{
+  font-size: 0.8rem;
+}
+
+.line{
+  border: 1px solid #fffdd0;
+  opacity:0.9;
+}
+
+#uni{
+  width:65vw;
+  background-color: #0f4f2e;
+  color: #fffdd0;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+  border: 2px solid #fffdd0;
+}
+
+#timing{
+  width:40vw;
+    background-color: #0f4f2e;
+  color: #fffdd0;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+  border: 2px solid #fffdd0;
+}
+
+#batch{
+  width:40vw;
+    background-color: #0f4f2e;
+  color: #fffdd0;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+  border: 2px solid #fffdd0;
+}
+
+#ongoing{
+  width:25vw;
+    background-color: #fffdd0;
+  color: black;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+  border: 2px solid #fffdd0;
+  text-align:center;
+}
+
+#course{
+  width:40vw;
+    background-color: #fffdd0;
+  color: black;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+  border: 2px solid #fffdd0;
+  text-align:center;
+}
+
+.btn{
+  background-color:#0f4f2e;
+  color: #fffdd0;
+  border: 2px solid #fffdd0;
+  position:relative;
+  overflow:hidden;
+}
+
+.btn::after{
+  content:"";
+  position: absolute;
+  background-color:#fffdd0;
+  color: #000;
+  border:2px solid #fffdd0;
+}
