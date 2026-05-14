@@ -86,7 +86,7 @@ img{
 
 #sgpa{
   width:25vw;
-  text-align: center;
+  text-align:center;
   border: 4px solid #fffdd0;
   background-color: #22a060;
   box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
@@ -96,7 +96,7 @@ img{
   background-color: #fffdd0;
   color: black;
   width:50vw;
-  text-align: center;
+  text-align:center;
   box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
 }
 
@@ -138,12 +138,13 @@ img{
 }
 
 #ongoing{
-  width:25vw;
+  width:30vw;
+  padding: 0.8vw 1.2vw;
     background-color: #fffdd0;
   color: black;
   box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
   border: 2px solid #fffdd0;
-  text-align:center;
+  text-align:left;
 }
 
 #course{
