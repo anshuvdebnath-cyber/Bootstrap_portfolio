@@ -64,7 +64,7 @@ img{
 
 .card {
   --bs-card-border-color: #fffdd0;
-  --bs-card-border-width: 3px
+  --bs-card-border-width: 3px;
 }
 
 #navbar-example2{
@@ -253,14 +253,34 @@ img{
 }
 
 #lift{
-  
   transition: 0.4s ease;
-
 }
 
 #lift:hover{
   content: "";
   border-radius:5px;
   box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.58) !important;
+}
 
+#ach-badge{
+  background-color: #fffdd0;
+  color: black;
+  width:30vw;
+  text-align:center;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.35);
+  transition: 0.4s ease;
+}
+
+#ach-content{
+  background-color:#0f4f2e;
+  text-align:left;
+  border-left: 2px solid #fffdd0;
+  padding: 0.7rem 0.5rem;
+}
+
+#ach-heading{
+  background-color:#0f4f2e;
+  text-align:left;
+  border-left: 2px solid #fffdd0;
+  padding: 0.7rem 0.5rem;
 }
