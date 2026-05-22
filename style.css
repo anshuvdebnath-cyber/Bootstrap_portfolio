@@ -265,7 +265,8 @@ img{
 #ach-badge{
   background-color: #fffdd0;
   color: black;
-  width:30vw;
+  width:45vw;
+  text-wrap: wrap;
   text-align:center;
   box-shadow: 4px 4px 0 rgba(0,0,0,0.35);
   transition: 0.4s ease;
