@@ -285,3 +285,23 @@ img{
   border-left: 2px solid #fffdd0;
   padding: 0.7rem 0.5rem;
 }
+
+#pro-badge{
+  background-color: #0f4f2e;
+  color: #fffdd0;
+  border: 2px solid #fffdd0;
+  width:52vw;
+  text-wrap: wrap;
+  text-align:center;
+  transition: 0.4s ease;
+}
+
+#pro-heading{
+  text-align:left;
+  font-size: 2rem;
+}
+
+#pro-b{
+  width: 25vw;
+  display: flex;
+}
