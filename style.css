@@ -301,7 +301,35 @@ img{
   font-size: 2rem;
 }
 
-#pro-b{
-  width: 25vw;
-  display: flex;
+.pro-button{
+display:flex;
+flex-wrap:wrap;
+gap:2vw;
+margin-top:2vh;
+margin-bottom:2vh;
+}
+
+.pro-b{
+  padding: 4px 12px;
+  border: 2px solid #fffdd0;
+  background-color: #0f4f2e;
+  transition: 0.4s ease;
+}
+
+.pro-b:hover{
+  content: "";
+  color: #000;
+  background-color: #fffdd0;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.58) !important;
+}
+
+#pro-content{
+  background-color:#0f4f2e;
+  text-align:left;
+  border-left: 2px solid #fffdd0;
+  padding: 0.7rem 0.5rem;
+}
+
+#pro-content ul{
+padding-left:0.7rem;
 }
