@@ -333,3 +333,17 @@ margin-bottom:2vh;
 #pro-content ul{
 padding-left:0.7rem;
 }
+
+.cert-section{
+  border: 2px solid #fffdd0;
+  width:90%;
+  border-radius: 5px;
+}
+
+.cert-image{
+  padding-left: 6rem;
+  height:15rem;
+  padding-bottom:2rem;
+  padding-top:2rem;
+  
+}
